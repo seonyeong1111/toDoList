@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input {
+  height: 50px;
+}
+.button {
+  height: 50px;
+  background-color: lightgray;
+}
+
+.todoBox {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px;
+  height: 100%;
+}
+
+.todo {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
